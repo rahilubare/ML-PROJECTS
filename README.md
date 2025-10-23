@@ -19,34 +19,6 @@ It helps businesses **retain customers** by identifying at-risk users and taking
 
 ---
 
-## **📂 Project Structure**
-customer_churn_prediction/
-│
-├── data/
-│ ├── raw/
-│ │ └── WA_Fn-UseC_-Telco-Customer-Churn.csv # Original dataset
-│ └── processed/ # Cleaned and processed data
-│
-├── notebooks/
-│ ├── 1_eda.ipynb # Exploratory Data Analysis
-│ ├── 2_preprocessing.ipynb # Data cleaning and feature engineering
-│ └── 3_modeling.ipynb # Model building and evaluation
-│
-├── src/
-│ ├── preprocess.py # Script for data preprocessing
-│ └── model.py # Script for model training and evaluation
-│
-├── models/
-│ └── random_forest_model.pkl # Saved model
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy code
-
----
-
 ## **🚀 How to Run This Project**
 
 ### **📋 Prerequisites**
@@ -141,3 +113,4 @@ Fork the repo
 Make your changes
 
 Submit a pull request
+
