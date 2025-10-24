@@ -29,14 +29,12 @@ It helps businesses **retain customers** by identifying at-risk users and taking
 ---
 
 ### **🛠️ Step 1: Clone the Repository**
-```bash
 git clone https://github.com/yourusername/ML-Projects.git
 cd ML-Projects/customer_churn_prediction
 (Skip this step if you already have the project folder.)
 
 📦 Step 2: Install Dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
 Installs all required Python libraries.
 
@@ -44,8 +42,7 @@ Installs all required Python libraries.
 Option 1: Using Jupyter Notebooks (Recommended for Beginners)
 Start Jupyter Notebook:
 
-bash
-Copy code
+
 jupyter notebook
 Open and run the notebooks in order:
 
@@ -63,14 +60,9 @@ Trained model → models/random_forest_model.pkl
 
 Option 2: Using Python Scripts (For Automation)
 Preprocess the data:
-
-bash
-Copy code
 python src/preprocess.py
-Train and evaluate the model:
 
-bash
-Copy code
+Train and evaluate the model:
 python src/model.py
 Outputs:
 
@@ -80,9 +72,6 @@ Trained model → models/random_forest_model.pkl
 
 🔮 Step 4: Use the Trained Model
 To make predictions with the trained model:
-
-python
-Copy code
 import joblib
 import pandas as pd
 
@@ -113,4 +102,5 @@ Fork the repo
 Make your changes
 
 Submit a pull request
+
 
